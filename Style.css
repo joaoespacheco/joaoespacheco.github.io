@@ -1,0 +1,75 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background:linear-gradient(90deg, 
+    black,rgb(19, 19, 19),rgb(58, 58, 58))
+}
+
+hr {
+    color: black;
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    font: normal bold 55px/100px Helvetica, Arial, sans-serif;
+    text-shadow: 1px 1px 5px red;
+    margin-left: 30px;
+}
+
+h2 {
+    color: white;
+    font: normal bold 40px/30px Helvetica, Arial, sans-serif;
+    text-shadow: 1px 1px 5px red;
+    margin-left: 30px;
+            
+}
+
+h3 {
+    color: white;
+    font: normal bold 40px/15px Helvetica, Arial, sans-serif;
+    margin-left: 30px;
+}
+
+p {
+    color: white;
+    font: normal normal 25px/45px Helvetica, Arial, sans-serif;
+    margin-left: 30px;
+}
+
+#indice {
+    color: rgb(0, 0, 0);
+    font: normal bold 30px/50px Helvetica, Arial, sans-serif;
+}
+
+#container-foto-e-dados {
+    display: flex;
+}
+
+#minha-foto {
+    padding: 30px;
+    padding-bottom: 60px;
+    background-color: rgb(255, 255, 255);
+}
+
+#texto-sobre-mim {
+    color: white;
+    font: normal normal 25px/45px Helvetica, Arial, sans-serif;
+    margin-top: 50px;
+    margin-left: 30px;
+    text-align:justify;
+    width: 800px;
+
+}
+
+.indice {
+    color:white;
+    text-decoration: none;
+}
+
+.indice:hover {
+    color:white;
+    text-decoration: underline;
+}
