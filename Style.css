@@ -1,0 +1,138 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    /*
+    background:linear-gradient(135deg, 
+    black, rgb(30, 30, 30),rgb(90, 90, 90))
+    */
+    
+    background-image: url(2454628.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+hr {
+    color: black;
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    font: normal bold 55px/100px Helvetica, Arial, sans-serif;
+    text-shadow: 3px 3px 0.5px rgb(0, 88, 129);
+    margin-left: 30px;
+}
+
+h2 {
+    color: white;
+    font: normal bold 40px/30px Helvetica, Arial, sans-serif;
+    text-shadow: 3px 3px 0.5px rgb(0, 88, 129);
+    margin-left: 30px;
+
+}
+
+h3 {
+    color: white;
+    font: normal bold 40px/15px Helvetica, Arial, sans-serif;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+
+p {
+    color: white;
+    font: normal normal 25px/45px Helvetica, Arial, sans-serif;
+    margin-left: 30px;
+}
+
+strong {
+    font-size: 30px;
+}
+
+#indice {
+    color: rgb(0, 0, 0);
+    font: normal bold 30px/50px Helvetica, Arial, sans-serif;
+    list-style:none;
+}
+
+#container-foto-e-dados {
+    display: flex;
+}
+
+#minha-foto {
+    padding: 30px;
+    padding-bottom: 60px;
+    background-color: rgb(255, 255, 255);
+}
+
+#texto-sobre-mim {
+    color: white;
+    font: normal normal 25px/45px Helvetica, Arial, sans-serif;
+    margin-top: 0px;
+    margin-left: 30px;
+    text-align:justify;
+    width: 800px;
+}
+
+#voltar-para-foto {
+    padding: 50px;
+    color:white;
+    background: linear-gradient(rgb(1, 39, 75), rgb(1, 87, 90));
+    font: normal bolder 30px/1.5 Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    border-radius: 25px;
+}
+
+#voltar-para-topo {
+    padding: 50px;
+    color:white;
+    background: linear-gradient(rgb(1, 39, 75), rgb(1, 87, 90));
+    font: normal bolder 30px/1.5 Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    border-radius: 25px;
+}
+
+#bottom-foto {
+ margin-top: 130px;
+ margin-left: 300px;
+}
+
+#bottom-topo {
+    margin-top: 130px;
+    margin-left: 130px;
+}
+
+#rodape-da-pagina {
+    display: flex;
+}
+
+.indice {
+    color:white;
+    text-decoration: none;
+}
+
+.indice:hover {
+    color:white;
+    text-decoration: underline;
+}
+
+.lista-soft {
+    color:white;
+    font: normal normal 25px/50px Helvetica, Arial, sans-serif;
+}
+
+.links-bacanas {
+    color:white;
+    font: normal normal 25px/50px Helvetica, Arial, sans-serif;
+    text-decoration: none;
+}
+
+.links-bacanas:hover {
+    color:white;
+    font: normal normal 25px/50px Helvetica, Arial, sans-serif;
+    text-decoration: underline;
+}
+
